@@ -1,0 +1,19 @@
+# Archivos de datos generados o pesados (no subir datasets al repo)
+data/*.csv
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# Entornos virtuales y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Archivos temporales de Jupyter / Colab / sistema
+.ipynb_checkpoints/
+.DS_Store
